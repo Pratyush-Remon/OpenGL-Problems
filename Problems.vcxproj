@@ -24,6 +24,7 @@
     <ProjectGuid>{aef46e25-b185-4b79-80cd-51249190097c}</ProjectGuid>
     <RootNamespace>Problems</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>problem1</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -137,10 +138,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Problem1.cpp" />
+    <Text Include="README.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="README.txt" />
+    <ClCompile Include="Problem1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
